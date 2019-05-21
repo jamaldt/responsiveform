@@ -66,5 +66,7 @@ export class TodoFormComponent implements OnInit {
   handleSuccessfulEditTodo(todo: TodoViewModel) {
     this.activeModal.dismiss({ todo: todo, id: todo.id, createMode: false });
   }
+  
+
 
 }

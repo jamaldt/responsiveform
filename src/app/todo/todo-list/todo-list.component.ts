@@ -70,7 +70,7 @@ export class TodoListComponent implements OnInit {
     modal.result.then(
       this.handleModalTodoFormClose.bind(this),
       this.handleModalTodoFormClose.bind(this)
-    )
+    ) 
     modal.componentInstance.createMode = false;
     modal.componentInstance.todo = todo;
   }
